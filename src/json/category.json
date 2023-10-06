@@ -1,0 +1,42 @@
+[
+    {"category_image":"flower1.png",
+    "category_tittle":"Snowfall",
+    "category_price":"price 40$"
+},
+    {"category_image":"flower2.png",
+    "category_tittle":"Dawn's Delight",
+    "category_price":"price 80$"
+},
+    {"category_image":"flower3.png",
+    "category_tittle":"Pink Elegance",
+    "category_price":"price 70$"
+},
+    {"category_image":"flower4.png",
+    "category_tittle":"Rustic Charm",
+    "category_price":"price 90$"
+},
+    {"category_image":"flower5.png",
+    "category_tittle":"Autumn Symphony",
+    "category_price":"price 60$"
+},
+    {"category_image":"flower6.png",
+    "category_tittle":"Rosy Delight",
+    "category_price":"price 50$"
+},
+    {"category_image":"flower7.png",
+    "category_tittle":"Serenity",
+    "category_price":"price 40$"
+},
+    {"category_image":"flower8.png",
+    "category_tittle":"Blue Harmony",
+    "category_price":"price 60$"
+},
+    {"category_image":"flower9.png",
+    "category_tittle":"Mystical Majesty",
+    "category_price":"price 20$"
+},
+    {"category_image":"flower10.png",
+    "category_tittle":"Blazing Blossoms",
+    "category_price":"price 50$"
+}
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "card_tittle":"Fresh Flowers",
+        "card-image":"card item.png",
+        "shop":"shop now",
+        "arrow":"arrow-right.png"
+    },
+    {
+        "card_tittle":"Dried Flowers",
+        "card-image":"card item (1).png",
+        "shop":"shop now",
+        "arrow":"arrow-right.png"
+    },
+    {
+        "card_tittle":"Live Plants",
+        "card-image":"card item (2).png",
+        "shop":"shop now",
+        "arrow":"arrow-right.png"
+    },
+    {
+        "card_tittle":"Aroma Candles",
+        "card-image":"card item (3).png",
+        "shop":"shop now",
+        "arrow":"arrow-right.png"
+    },
+    {
+        "card_tittle":"Fresheners",
+        "card-image":"card item (4).png",
+        "shop":"shop now",
+        "arrow":"arrow-right.png"
+    }
+   
+]
