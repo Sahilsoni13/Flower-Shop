@@ -1,0 +1,22 @@
+[
+    {"product_img":"product1.png",
+    "product_name":"Glass Vase",
+    "product_price":"$15"
+    },
+    {"product_img":"product2.png",
+    "product_name":"Hammershoi",
+    "product_price":"$15"
+    },
+    {"product_img":"product3.png",
+    "product_name":"Ceramic Vase",
+    "product_price":"$15"
+    },
+    {"product_img":"product4.png",
+    "product_name":"Steel vase",
+    "product_price":"$15"
+    },
+    {"product_img":"product5.png",
+    "product_name":"Bamboo",
+    "product_price":"$15"
+    }
+]

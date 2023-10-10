@@ -7,7 +7,7 @@ const Banner = () => {
   <>
   <section className="banner">
     {/* <div className="container"> */}
-     <div className="banner-main">
+     <div className="banner-main">    
       <div className="banner-left">
        <div className="top">
          <h1>Kyiv <br /> LuxeBouquets <img src={Ricon} alt="" /></h1>

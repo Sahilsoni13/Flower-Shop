@@ -30,11 +30,6 @@ function App() {
       <Route element={<Contact/>} path='/contact'/>
       <Route element={<Signin/>} path='/signin'/>
     </Route>
-    
-    
-
-      
-    
   </Routes>
   </BrowserRouter>
   <Footer/>

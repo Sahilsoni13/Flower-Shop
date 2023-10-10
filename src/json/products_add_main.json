@@ -1,0 +1,18 @@
+[
+    {"add_img":"productitem1.png",
+     "add_tittle":"Rattan Grapefruit",
+     "add_price":"price 48$"
+    },
+    {"add_img":"productitem2.png",
+     "add_tittle":"Lime & Matcha",
+     "add_price":"price 48$"
+    },
+    {"add_img":"productitem3.png",
+     "add_tittle":"Cedar & Lavender",
+     "add_price":"price 48$"
+    },
+    {"add_img":"productitem4.png",
+     "add_tittle":"Ocean Mist",
+     "add_price":"price 48$"
+    }
+]
