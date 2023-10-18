@@ -8,11 +8,15 @@ const Header = () => {
    <header className="header">
     <div className="container">
       <nav className="nav-icons">
-        <img src={Toggle} alt="" />
-        <img src={Cart} alt="" />
+        <div className="toggle1">
+        <img src={Toggle}alt="" />
+        </div>
+        <div className="cart-toggle">
+        <img src={Cart}  alt="" />
+        </div>
       </nav>
       <nav className="navbar">
-   
+  
         <div className="nav-left">
          <li > <Link to="/">Home</Link> </li>
          <li className='left-brdr2'> <Link to="/contact">Contact</Link> </li>

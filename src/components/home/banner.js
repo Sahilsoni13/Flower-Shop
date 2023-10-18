@@ -10,8 +10,8 @@ const Banner = () => {
      <div className="banner-main">    
       <div className="banner-left">
        <div className="top">
-         <h1>Kyiv <br /> LuxeBouquets <img src={Ricon} alt="" /></h1>
-         <p>Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread Joy with Our Online Flower Delivery Service</p>
+         <h1 className='common-h-50'>Kyiv <br /> LuxeBouquets <img src={Ricon} alt="" /></h1>
+         <p className='common-p-16' >Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread Joy with Our Online Flower Delivery Service</p>
        </div>
        <div className="middle"></div>
        <div className="bottom">

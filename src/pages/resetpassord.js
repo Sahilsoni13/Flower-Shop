@@ -1,33 +1,25 @@
 import React from 'react'
-import chech from '../components/images/check_FILL0_wght300_GRAD0_opsz24.png'
-import edit from '../components/images/edit_square.png'
-const Signin = () => {
+// import chech from '../components/images/check_FILL0_wght300_GRAD0_opsz24.png'
+// import edit from '../components/images/edit_square.png'
+const Resetpassord = () => {
   return (
     <>
-<section className='wellcome'>
+            <section className='wellcome'>
         <div className="wellcome-main-father-div">
           <div className="wellcome-child-1"></div>
           <div className="wellcome-child-2">
             <div className="wellcome-main-contant">
               <div className="wellcome-child-2-part-1">
-                <h1 className='common-h-50' >Sign up</h1>
+                <h1 className='common-h-50' >Reset your password</h1>
               </div>
               <div>
-                <p className='wellcome-child-2-part-2-text-p' >Become a member and enjoy personalized gift recommendations, fast checkout, and more.</p>
+                <p className='wellcome-child-2-part-2-text-p' >Please provide your phone number below to receive a code for restoring access to your account</p>
               </div>
               <div className="wellcome-child-2-part-2">
-                <div className="shipping-contect-imformation">
-                  <div className="ok-arrow">
-                    <img src={chech} />
-                    <p>Contact information</p>
-                  </div>
-                  <img src={edit} />
-                </div>
                 <div className="enter-code-for-sms-div">
-                  <p>Enter code from sms</p>
+                  <p>Enter your mobile number</p>
                   <div>
-                  <input className='input-enter-code' type="text"  placeholder='XX XX XX' />
-                  <p>Please check your phone for a message containing a code to enter</p>
+                    <input className='input-enter-code' type="text" placeholder='+380 XX XXX XX XX' />
                   </div>
                 </div>
                 <button className='btn-black' >JOIN US</button>
@@ -45,9 +37,9 @@ const Signin = () => {
           </div>
           <div className="wellcome-child-1"></div>
         </div>
-      </section>
+      </section>
     </>
   )
 }
 
-export default Signin
+export default Resetpassord

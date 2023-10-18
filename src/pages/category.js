@@ -7,7 +7,7 @@ const Category = () => {
     <section className="category">
       <div className="category-main">
         <div className="category-left">
-          <h1>Fresh Flowers</h1>
+          <h1 className='common-h-50'>Fresh Flowers</h1>
         </div>
         <div className="category-right">
              <div className="category-cards">
@@ -21,7 +21,6 @@ const Category = () => {
                   )
                 })
               }
-             
              </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const Product = () => {
       <div className="products-add">
         <div className="add-main">
           <div className="add-left">
-                   <h1>You may also like…</h1>
+                   <h1 className='common-h-50'>You may also like…</h1>
           </div>
           <div className="add-right">
            {

@@ -9,7 +9,7 @@ const Footer = () => {
     <>
     <footer className="footer">
       <div className="footer-main">
-        <div className="footer-content">
+        <div className="footer-content ">
            <p>Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days before. No spam or sharing your address</p>
            <div className="footer-contact">
            <input type="text"  placeholder='Your Email'/>
@@ -36,7 +36,7 @@ const Footer = () => {
              <img src={Telegram} alt="" />
             </div>
         </div>
-        <div className="footer-content footer-common">
+        <div className="footer-content footer-common  footer-left">
         <h2>Shop</h2>
         <ul>
           <li><a href="">All Products</a></li>
@@ -53,7 +53,7 @@ const Footer = () => {
           <li><a href="">Wedding & Event Decor</a></li>
         </ul>
         </div>
-        <div className="footer-content footer-common">
+        <div className="footer-content footer-common footer-left">
           <h2>About Us</h2>
            <ul>
             <li><a href="">Our story</a></li>

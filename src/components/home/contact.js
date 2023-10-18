@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="contact-main">
         <div className="contact-left">
           <div className="contact-top">
-            <h1>To Contact Us</h1>
+            <h1 className='common-h-50'>To Contact Us</h1>
             <p>We will call you back</p>
             <div className="input-field">
               <input type="text" placeholder='+380 XX XXX XX XX'/>

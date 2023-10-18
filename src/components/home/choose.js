@@ -7,7 +7,7 @@ const Choose = () => {
     <div className="choose-main">
     <div className="about-left">
           <div className="about-text">
-          <h1>Why choose us ?</h1>
+          <h1 className='common-h-50'>Why choose us ?</h1>
           </div>
         </div>
      <div className="choose-right">
@@ -15,7 +15,7 @@ const Choose = () => {
         Choose_text.map((item,index)=>{
           return(
             <div className="choose-info" key={index}>
-            <h2>{item['choose-heading']}</h2>
+            <h2 className='common-h-50'>{item['choose-heading']}</h2>
             <p>{item['choose-text']}</p>
           </div>
           )
