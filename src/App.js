@@ -24,7 +24,7 @@ function App() {
   {/* <Header/> */}
   <BrowserRouter>  
   <Routes>
-    <Route element={<Header/>} path='/'>
+      <Route element={<Header/>} path='/'>
       <Route element={<Home/>} path='/'/>
       <Route element={<Category/>} path='/category'/>
       <Route element={<Product/>} path='/product'/>
@@ -39,7 +39,7 @@ function App() {
       <Route element={<Shipping/>} path='/shipping'/>
       <Route element={<Resetpassord/>} path='/Resetpassord'/>
       <Route element={<Checkout/>} path='/Checkout'/>
-    </Route>
+      </Route>
   </Routes>
   </BrowserRouter>
   <Footer/>

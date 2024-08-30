@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import Google from "../images/google logo.png"
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 const Client = () => {
   return (
     <>
@@ -21,11 +21,12 @@ const Client = () => {
         </div>
       <Swiper
         cssMode={true}
-        navigation={true}
-        pagination={true}
+        navigation={false}
+        pagination={false}
         mousewheel={true}
         keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        autoplay={true}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

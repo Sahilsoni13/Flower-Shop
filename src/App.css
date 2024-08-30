@@ -51,14 +51,14 @@
   justify-content: center;
   width: 100%;
   background-color: transparent;
-  padding: 15px 24px;
+  padding: 1.25vw 1.7vw 1.12vw;
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
 
 .btn-black {
   display: flex;
-  padding: 16px 24px 14px 24px;
+  padding: 1.25vw 1.7vw 1.12vw;
   justify-content: center;
   align-items: center;
   background-color: #121212;
@@ -275,7 +275,8 @@ html {
   padding: 24px 0 16px 0;
 }
 .about-right button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   color: var(--Black, #121212);
   font-size: 16px;
   font-weight: 500;
@@ -357,7 +358,8 @@ html {
   width: 100%;
 }
 .input-field button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   color: var(--White, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -449,7 +451,8 @@ html {
   margin: 24px 0 16px 0;
 }
 .footer-contact button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   border: none;
   color: var(--White, #fff);
   font-size: 16px;
@@ -541,7 +544,8 @@ ul li a {
 }
 .services-right button,
 .services-bottom button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   color: var(--Black, #121212);
   font-size: 16px;
   font-weight: 500;
@@ -800,17 +804,7 @@ products section
   font-weight: 400;
   line-height: 140%; /* 22.4px */
 }
-
-.products-main button {
-  color: var(--White, #fff);
-  font-weight: 500;
-  line-height: 120%; /* 19.2px */
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-  font-size: 16px;
-  border: none;
-  background-color: #121212;
-}
+ 
 .add-main {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -857,17 +851,16 @@ products section
   row-gap: 24px;
   align-items: flex-start;
 }
-.subscribe-right h1,
+/* .subscribe-right h1,
 .subscribe-right label,
 .work-left h1,
 .work-text h2,
 .work-text p,
 .plan-heading h1 {
   color: var(--Black, #121212);
-  font-size: 50px;
   font-weight: 600;
-  line-height: 120%; /* 60px */
-}
+  line-height: 120%; 
+} */
 .subscribe-right label {
   font-size: 16px;
 }
@@ -878,7 +871,8 @@ products section
   line-height: 140%; /* 22.4px */
 }
 .subscribe-right button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   background: transparent;
   border: 1px solid #121212;
   font-size: 16px;
@@ -896,12 +890,12 @@ products section
 .work-left {
   padding: 5.56vw;
 }
-.work-left h1 {
+/* .work-left h1 {
   font-size: 50px;
   font-size: 50px;
   position: sticky;
   top: 160px;
-}
+} */
 .work-text {
   padding: 5.56vw;
   display: grid;
@@ -968,7 +962,8 @@ products section
 }
 .p-item-btn button,
 .d-check button {
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   width: 100%;
   border: none;
   background-color: #121212;
@@ -1029,7 +1024,8 @@ products section
   line-height: 120%; /* 19.2px */
   letter-spacing: 0.48px;
   text-transform: uppercase;
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   border: 1px solid #121212;
   background-color: transparent;
 }
@@ -1081,15 +1077,15 @@ products section
 .faq-heading {
   text-align: center;
 }
-.faq-heading h1 {
+/* .faq-heading h1 {
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-}
+} */
 .tittle-main h3,
 .faq-q h3 {
-  font-size: 28px;
+  font-size: 1.45vw;
   font-weight: 400;
   line-height: 120%;
 }
@@ -1225,7 +1221,8 @@ font-size: 18px;
 max-width: 638px;
 }
 .discover button{
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: 1.25vw 1.7vw 1.12vw;
   background-color: #121212;
   color: #fff;
   border: none;
@@ -1233,19 +1230,8 @@ max-width: 638px;
   width: 100%;
   margin-top: 56px;
 }
-.exp-section:nth-child(even){
- 
-}
 
-/* banner section */
-/* @media screen and (max-width: 1181px) {
-  .top h1 {
-    font-size: 53.5px;
-  }
-  .bottom {
-    flex-direction: column;
-  }
-} */
+
 
 /* ==================================== */
 .checkout {
@@ -1346,18 +1332,14 @@ max-width: 638px;
   display: flex;
   gap: 16px;
   padding-top: 16px;
-
-  /* justify-content: space-between; */
 }
 
 .btn-apply {
-  /* max-width: 275px; */
   width: 100%;
 }
 
 .input-apply {
   padding: 16px;
-  /* max-width: 275px; */
   width: 100%;
 }
 
@@ -1472,7 +1454,7 @@ max-width: 638px;
   border-right: 1px solid #121212;
   display: flex;
   flex-direction: column;
-  height: 720px;
+  height: 718px;
   justify-content: space-between;
   background-color: #ffffff;
 }
@@ -1781,5 +1763,11 @@ row-gap: 12px;
 @media screen and (max-width:375px) {
   .about-right p {
     font-size: 4.3vw;
+  }
+  .plan-items{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .p-item-btn{
+    grid-column: unset;
   }
 }

@@ -13,7 +13,7 @@ const Footer = () => {
            <p>Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days before. No spam or sharing your address</p>
            <div className="footer-contact">
            <input type="text"  placeholder='Your Email'/>
-           <button type="button">Remind</button>
+           <button className='btn-black' type="button">Remind</button>
            </div>
         </div>
         <div className="footer-content footer-common">
